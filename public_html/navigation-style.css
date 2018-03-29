@@ -1,0 +1,64 @@
+
+.masthead {
+    background: transparent url('https://marble.com/uploads/materials/125/1280X720/quartzite_Super-White_xLm9Fd83M1aJ5OJ3lMPd.jpg') center center no-repeat;
+    height: 6rem;
+}
+.masthead-logo {
+    color: red;
+    align-content: center;
+    font-size: 65px;
+    font-family:'Anton', sans-serif;;
+}
+.navigation {
+    background: rgba(0,0,0, .75);
+    padding: 10px;
+    margin-top: 5px;
+    height: 25px;
+
+}
+.navigation-group {
+    padding: 0;
+    display: table;
+    margin: 0 auto;
+    list-style: none;
+    float: left;
+}
+
+.dropbtn {
+    background-color:rgba(256,256,256, .4);
+    color: #fff;
+    padding: 13px;
+    border:none;
+    cursor: pointer;
+    float: right;
+    text-transform: capitalize;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(256,256,256, .4);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navigation-item {
+    display: inline-block;
+    background-color: rgba(256,256,256, .4);
+    color: #fff;
+    padding: .5rem;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.navigation-item:hover {
+    background-color: rgba(256, 256, 256, .5);
+}
+.dropdown-content:hover {
+    background-color: rgba(256, 256, 256, .5);
