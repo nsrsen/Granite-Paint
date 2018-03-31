@@ -62,3 +62,12 @@
 }
 .dropdown-content:hover {
     background-color: rgba(256, 256, 256, .5);
+}
+form {
+    text-align: center;
+}
+.imagegallery {
+
+    width: 1250px;
+    height: 800px;
+}
