@@ -1,0 +1,13 @@
+.mainpageparagraph   {border-style: double;border-radius: 15px; max-width: 500px; margin: auto; font-size: 15px; border-color: black; border-width: thick; background-color: white; padding: 10px;
+}
+
+body {background-image: url("https://www.muralswallpaper.com/app/uploads/textured-white-marble-textures-plain.jpg")
+}
+
+.footer {border: black; background-color: white }
+
+.payments {alignment: bottom; background-color: white; height: 155px; width: 210px;}
+
+.cities {margin: auto; font-size: 14px; list-style-type: none;border-style: dashed; max-width: fit-content; background-color: white; alignment: top}
+
+.footer-locations{border: black; border-width: thick; list-style-type: none;border-style: unset}
