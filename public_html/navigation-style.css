@@ -67,8 +67,9 @@ form {
     text-align: center;
 }
 .imagegallery {
-    width: 1250px;
-    height: 800px;
+    width: 1150px;
+    height: 700px;
+    padding-left: 55px;
 }
 .image2 {
     width: 500px;
@@ -77,4 +78,21 @@ form {
 .image3 {
     width: 500px;
     height: 250px;
+}
+.text1 {
+    font-style: bold;
+    font-size: 22px;
+    border-style: solid;
+    max-width: fit-content;
+    margin: auto;
+  }
+.submit {
+    font-size: 40px;
+}
+.select {
+  font-size: 20px;
+  background-color: lightblue;
+}
+body {
+  background-image: url("https://www.muralswallpaper.com/app/uploads/textured-white-marble-textures-plain.jpg")
 }
