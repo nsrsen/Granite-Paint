@@ -3,11 +3,11 @@
 
 body {background-image: url("https://www.muralswallpaper.com/app/uploads/textured-white-marble-textures-plain.jpg")
 }
-
+.mySlides {border: dimgray; border-width: 25px }
 .footer {border: black; background-color: white }
 
 .payments {alignment: bottom; background-color: white; height: 155px; width: 210px;}
 
-.cities {margin: auto; font-size: 14px; list-style-type: none;border-style: dashed; max-width: fit-content; background-color: white; alignment: top}
+.cities {margin: auto; font-size: 14px; list-style-type: none;border-style: dashed; max-width: fit-content; background-color: white; alignment: top; font-family: "Arial Black"}
 
-.footer-locations{border: black; border-width: thick; list-style-type: none;border-style: unset}
+.footer-locations{border: black; border-width: thick; list-style-type: none;border-style: unset; margin-right: auto}
