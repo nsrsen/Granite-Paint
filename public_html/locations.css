@@ -2,4 +2,6 @@ body {background-image: url("https://www.muralswallpaper.com/app/uploads/texture
 }
 .locations{ border: dimgray; border-radius: inherit; border-width: 15px; border-style: ridge; list-style-type: none; background-color: white; width:fit-content; alignment: center; font-family: "impact"; font-size: 19px}
 
+.all_locations {padding:65px; padding-top: 5px}
+
 .location_map {width: 510px; height: 300px; border: dimgray; border-radius: inherit; border-width: 15px; border-style: ridge; alignment: right}
