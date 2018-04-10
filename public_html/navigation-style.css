@@ -82,7 +82,7 @@ form {
 .text1 {
     font-style: bold;
     font-size: 22px;
-    border-style: solid;
+    border: 12px solid #665544;
     max-width: fit-content;
     margin: auto;
   }
@@ -95,4 +95,8 @@ form {
 }
 body {
   background-image: url("https://www.muralswallpaper.com/app/uploads/textured-white-marble-textures-plain.jpg")
+}
+.images {
+  padding: 100px;
+  padding-top: 12px;
 }
