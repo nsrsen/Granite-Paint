@@ -1,21 +1,24 @@
 
 .masthead {
-    background: transparent url('https://marble.com/uploads/materials/125/1280X720/quartzite_Super-White_xLm9Fd83M1aJ5OJ3lMPd.jpg') center center no-repeat;
+    background: transparent url('https://media.gettyimages.com/photos/cararra-white-marble-tile-background-pattern-texture-picture-id492451078') center center no-repeat;
     height: 6rem;
+
 }
 .masthead-logo {
+
     color: red;
     align-content: center;
-    font-size: 65px;
-    font-family:'Anton', sans-serif;;
+    font-size: 49px;
+    font-weight: revert ;
+    font-family:'impact';
 }
 .navigation {
     background: rgba(0,0,0, .75);
     padding: 10px;
     margin-top: 5px;
-    height: 25px;
-
+    height: 45px;
 }
+
 .navigation-group {
     padding: 0;
     display: table;
