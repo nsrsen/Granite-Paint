@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TC Granite</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="navigation-style.css">
+    <link rel="stylesheet" href="homepage.css">
+</head>
+
+<body>
+
+        <div class="masthead">
+            <div class="masthead-logo" align="center">TC DISCOUNT GRANITE </div>
+        </div>
+
+        <div class="navigation">
+            <ul class="navigation-group">
+                <li class="navigation-item"><a href="homepage.html">Home </a></li>
+                <li class="navigation-item"><a href="product.html">Products</a></li>
+                <li class="navigation-item"><a href="gallery.html"> Gallery</a> </li>
+                    <li class="navigation-item"><a href="locations.html">Locations </a></li>
+            </ul>
+        </div>
+
+<br>
+<br>
+<br>
+<p class="mainpageparagraph">   Twin City Discount Granite is a local, family-owned business that provides top quality granite throughout the Twin Cities. Twin City Discount Granite employs our own in-house fabricators and installers to ensure that you receive the highest quality of customer service, workmanship, and satisfaction.</p>
+
+<br>
+<br>
+<br>
+        <div class="w3-content w3-display-container" style="max-width:700px" style="height:450px" >
+        <img class="mySlides" style="width:100%" src="http://jackanapesink.com/img/2018/03/outstanding-kitchen-with-granite-breakfast-table-combined-wooden-island-decor-also-knife-storage-and-black-iron-stove-featuring-rounded-bar-stool-ideas-chic-kitche-new-top-furnitur.jpg">
+        <img class="mySlides" style="width:100%" src="http://www.ohiopropertybrothers.com/wp-content/uploads/2017/05/Granite-Shower-by-Ohio-Property-Brothers-2.jpg">
+        <img class="mySlides" style="width:100%" src="http://www.luxurycountertops.com/images/images/work/Luxury-Countertops-Island-Alaska.jpg">
+        <img class="mySlides" style="width:100%" src="http://evafurniture.com/wp-content/uploads/2016/07/Beautiful-Granite-Kitchen-Countertops-Ideas.jpg">
+
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}
+                x[myIndex-1].style.display = "block";
+                setTimeout(carousel, 5000); // Change image every 2 seconds
+            }
+        </script>
+        <br>
+        <br>
+        <br>
+
+<div class="footer">
+
+    <div style="float: left"><p><img class="payments" src="https://www.osceolaclerk.com/Content/Images/credit-card-logos.png"></p></div>
+
+    <div style="float: left">
+
+    <p>
+       <ul class="cities"; style= "font:bolder">
+      <h2>Areas We Serve</h2>
+    <li>Albert Lea - Alexandria - Apple Valley - Bemidji</li>
+    <li> Bloomington - Brainerd - Brooklyn Park - Burnsville</li>
+    <li>Chippewa Falls - Coon Rapids - Duluth - Eagan</li>
+    <li>Eden Prairie - Fergus Falls - Hayward - Hudson </li>
+    <li>LaCrosse - Lakeville - Maple Grove - Menomonie</li>
+    <li>Minnetonka - Moorhead - Owatonna - Plymouth</li>
+    <li>River Falls - Rochester - Somerset - Spooner</li>
+        </ul>
+    </p>
+    </div>
+
+        <div style="float: left">
+        <ul class="footer-locations">
+            <li>  East Metro Maplewood</li>
+            <li>Satellite Showroom</li>
+            <li>(651)-777-9988</li>
+            <br>
+            <li>1275 County Rd D E
+                Mapelwood, MN </li>
+            <br>
+            <li>Mon: CLOSED</li>
+            <li>Tues-Fri: 10 to 5</li>
+            <li> Sat: 10 to 3 </li>
+        </ul>
+        </div>
+
+        <div style="float: left">
+        <ul class="footer-locations">
+            <li> West Metro Maplewood</li>
+            <li>Main Showroom & Fabrication</li>
+            <li>(763)-862-0888</li>
+            <br>
+            <li>11521 Eagle St NW Suite
+                Coon Rapids, MN   </li>
+            <br>
+            <li>Mon - Thur: 9 to 5 </li>
+            <li>Fri: 9 to 4 </li>
+            <li>Sat: 10 to 3</li>
+        </ul>
+        </div>
+</div>
+
+
+
+
+</body>
+</html>
